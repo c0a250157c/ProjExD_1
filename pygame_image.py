@@ -34,7 +34,8 @@ def main():
             kt_rect.move_ip(+1, 0)
         kt_rect.move_ip(-1, 0)
         if key_lst[pg.K_RIGHT]:
-                     kt_rect.move_ip(+1, 0)
+                    kt_rect.move_ip(+1, 0)
+         
         x=(tmr%3200)/2
         screen.blit(bg_img, [-x, 0])
         screen.blit(bg_img2, [-x+1600, 0])
